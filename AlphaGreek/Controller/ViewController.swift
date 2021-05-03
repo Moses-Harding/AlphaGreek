@@ -159,6 +159,10 @@ class ViewController: UIViewController {
             })
         })
     }
+    
+    func checkHighScore() {
+        
+    }
 }
 
 extension ViewController: QuizViewDelegate {
@@ -183,6 +187,7 @@ extension ViewController: QuizViewDelegate {
             }
             self.strikes = 0
             self.quizView.setPoints()
+            self.checkHighScore()
         }
         return (result, transitioning)
     }
@@ -221,5 +226,4 @@ protocol QuizViewDelegate {
     func proceed()
     func reset()
     func gameOver()
-    
 }
