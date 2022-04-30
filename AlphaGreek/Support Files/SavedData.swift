@@ -42,6 +42,18 @@ struct Storage<T: Codable> {
 
 
 struct AppData {
-    @Storage(key: "highScore", defaultValue: 0)
-    static var highScore: Int
+    @Storage(key: "greekToEnglishLetterHighScore", defaultValue: 0)
+    static var greekToEnglishLetterHighScore: Int
+    
+    @Storage(key: "englishToGreekLetterHighScore", defaultValue: 0)
+    static var englishToGreekLetterHighScore: Int
+    
+    @Storage(key: "upperToLowerHighScore", defaultValue: 0)
+    static var upperToLowerHighScore: Int
+    
+    @Storage(key: "lowerToUpperHighScore", defaultValue: 0)
+    static var lowerToUpperHighScore: Int
+    
+    @Storage(key: "spellOutLetterHighScore", defaultValue: 0)
+    static var spellOutLetterHighScore: Int
 }
