@@ -13,8 +13,6 @@
 		150768DC2638D556001D0327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150768DA2638D556001D0327 /* Main.storyboard */; };
 		150768DE2638D558001D0327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150768DD2638D558001D0327 /* Assets.xcassets */; };
 		150768E12638D558001D0327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150768DF2638D558001D0327 /* LaunchScreen.storyboard */; };
-		150768EC2638D558001D0327 /* AlphaGreekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150768EB2638D558001D0327 /* AlphaGreekTests.swift */; };
-		150768F72638D558001D0327 /* AlphaGreekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150768F62638D558001D0327 /* AlphaGreekUITests.swift */; };
 		1507690B2638D605001D0327 /* Alphabet Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507690A2638D605001D0327 /* Alphabet Model.swift */; };
 		15B679A32639F96900E8CAC3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B679A22639F96900E8CAC3 /* Enums.swift */; };
 		15BEF6EF2641D59F00147FA8 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BEF6EE2641D59F00147FA8 /* UIScrollView.swift */; };
@@ -59,11 +57,7 @@
 		150768E02638D558001D0327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		150768E22638D558001D0327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		150768E72638D558001D0327 /* AlphaGreekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaGreekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		150768EB2638D558001D0327 /* AlphaGreekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaGreekTests.swift; sourceTree = "<group>"; };
-		150768ED2638D558001D0327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		150768F22638D558001D0327 /* AlphaGreekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaGreekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		150768F62638D558001D0327 /* AlphaGreekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaGreekUITests.swift; sourceTree = "<group>"; };
-		150768F82638D558001D0327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1507690A2638D605001D0327 /* Alphabet Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alphabet Model.swift"; sourceTree = "<group>"; };
 		15B679A22639F96900E8CAC3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		15BEF6EE2641D59F00147FA8 /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
@@ -110,8 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				150768D32638D556001D0327 /* AlphaGreek */,
-				150768EA2638D558001D0327 /* AlphaGreekTests */,
-				150768F52638D558001D0327 /* AlphaGreekUITests */,
 				150768D22638D556001D0327 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,24 +134,6 @@
 				150768E22638D558001D0327 /* Info.plist */,
 			);
 			path = AlphaGreek;
-			sourceTree = "<group>";
-		};
-		150768EA2638D558001D0327 /* AlphaGreekTests */ = {
-			isa = PBXGroup;
-			children = (
-				150768EB2638D558001D0327 /* AlphaGreekTests.swift */,
-				150768ED2638D558001D0327 /* Info.plist */,
-			);
-			path = AlphaGreekTests;
-			sourceTree = "<group>";
-		};
-		150768F52638D558001D0327 /* AlphaGreekUITests */ = {
-			isa = PBXGroup;
-			children = (
-				150768F62638D558001D0327 /* AlphaGreekUITests.swift */,
-				150768F82638D558001D0327 /* Info.plist */,
-			);
-			path = AlphaGreekUITests;
 			sourceTree = "<group>";
 		};
 		150769072638D57C001D0327 /* Model */ = {
@@ -368,7 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150768EC2638D558001D0327 /* AlphaGreekTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150768F72638D558001D0327 /* AlphaGreekUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
